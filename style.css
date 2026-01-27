@@ -1,0 +1,52 @@
+body{
+  background: #0b1020;
+  color: #e8eefc;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  place-items: center;
+  gap: 12px;
+  padding: 20px;
+}
+
+.hud{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.hud span{
+  font-weight: 700;
+}
+
+
+button{
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.board{
+  width: 360px;
+  height: 360px;
+  background: #141d3a;
+  border-radius: 12px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.cell{
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+#msg{
+  margin-top: 12px;
+  min-height: 24px;
+  color: #e8eefc;
+  font-size: 14px;
+}
