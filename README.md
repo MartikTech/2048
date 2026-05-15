@@ -22,4 +22,4 @@ Website
 ![Website-Image1](/images/Website-Image.png)
 
 Link
-[Test the website here!!!](https://martik69420.github.io/2048/)
+[Test the website here!!!](https://martiktech.github.io/2048/)
